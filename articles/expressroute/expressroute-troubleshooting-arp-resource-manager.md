@@ -59,6 +59,7 @@ Ensure that you have the following before you progress further
 * IP address ranges used for configuring the peerings (Azure private, Azure public and Microsoft). Review the ip address assignment examples in the [ExpressRoute routing requirements page](expressroute-routing.md) to get an understanding of how ip addresses are mapped to interfaces on your side and on the ExpressRoute side. You can get information on the peering configuration by reviewing the [ExpressRoute peering configuration page](expressroute-howto-routing-arm.md).
 * Information from your networking team / connectivity provider on the MAC addresses of interfaces used with these IP addresses.
 * You must have the latest PowerShell module for Azure (version 1.50 or newer).
+* You must refresh the ExpressRoute circuit once.
 
 ## Getting the ARP tables for your ExpressRoute circuit
 This section provides instructions on how you can view the ARP tables per peering using PowerShell. You or your connectivity provider must have configured the peering before progressing further. Each circuit has two paths (primary and secondary). You can check the ARP table for each path independently.
